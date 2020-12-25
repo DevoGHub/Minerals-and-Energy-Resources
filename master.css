@@ -1,0 +1,55 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-size: cover;
+  background-color: #222;
+  color: #aaa;
+}
+
+.sectiontitle{
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: grid;
+  height: 400px;
+  justify-content: center;
+}
+
+.sectiontitle div h2{
+  color:#fff;
+  font-family:cursive;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 35px;
+  padding:10px;
+  border-style: solid;
+  border-radius:25px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.sectioninfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  padding:10px 20px;
+}
+
+.img{
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+
+.info h2{
+  font-family:cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+}
